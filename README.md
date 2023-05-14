@@ -16,7 +16,7 @@ Usage Guide:
 This repository contains the code for an LSTM model that predicts the binary variable ‘recovery_flags’ where 1 stand for ‘recovered’ and 0 stand for ‘not recovered’. To obtain the results from the model, simply run the provided script. 
 This repository also includes the script that predicts hazard functions for a specific patient, which can be chosen by the user. This functionality is implemented in the file ‘Collect_probs.ipynb’.  
 This repository also contains ‘cancer_simulation’ file that was used to generate dataset used in the analysis. This file was retrieved from 8.b. That means that you might need some extra adjustments to your libraries in order to be able to simulate the data set. Additionally, we changed the seed value in ‘cancer_simulation’ file from 100 to 200 in order to create more positive recovery flags. This variable was highly unbalanced.  
-The last file in the repository is ‘name of file’ (hier komt time dep conf) which contains the code attempting to address time-dependent confounding 
+The last file in the repository is ‘Time-depending confounder' which contains the code attempting to address time-dependent confounding.
  
 Contribution Guidelines:  
 
